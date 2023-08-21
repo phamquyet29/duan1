@@ -1,0 +1,15 @@
+<?php extract($ac) ?>
+<form class="bg-white rounded max-h-[540px]" action="<?= ADMIN_URL . 'binh-luan/update'?>" method="post" class="form-horizontal">
+    <div class="">
+<label class="text-[30px] flex justify-center py-3 font-bold text-[#666565]" for="">Update Comment</label>
+    <div class="">
+    <input type="text" value="<?= $ac['noidung']?>" class="my-3 block bg-[#e5e5e5] w-[1175px] mx-5 p-3 rounded outline-none" name="noidung" require class="form-control block" id="inputEmail3" placeholder="comment">
+    
+    </div>
+    <div class="card-footer">
+    <button type="submit" class="border-2 mx-5 my-3 text-[17px] border-[#3c91e6] rounded bg-[#3c91e6] text-white px-3 py-2">Add</button></a>
+    <a class="border-2 mt-3 text-[17px] border-gray-400 rounded bg-gray-400 text-white px-3 py-2" href="<?= ADMIN_URL . 'web-management/binh-luan'?>">Cancel</a>
+  </div>
+    </div>
+
+</form>
